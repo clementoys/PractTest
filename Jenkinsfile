@@ -3,8 +3,8 @@ pipeline {
     environment {
         // CI set to true to allow it to run in "non-watch" (i.e. non-interactive) mode
         CI = 'true'
-//         HOST_IP = "${HOST_IP}".0
-//         HOST_PORT = "${HOST_PORT}"
+         HOST_IP = 18.116.15.234
+         HOST_PORT = 8080
     }
     stages {
         stage('Build') { 
